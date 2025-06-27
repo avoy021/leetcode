@@ -16,13 +16,6 @@ function App() {
     dispatch(initializeState());
   },[])
 
-  //isInitialize makes sure that dispatch(intializeState) runs first and checks if a cookie is present or not
-  //if present it will initialize the state access token and other variables
-  //this above function makes sure react app persists state on page reloads or during tab closing(not logout)
-  //if cookie is not present, in that case also it makes isInitialized variable-> true, which allows app 
-  //component to render components
-  //in all cases whether user visits app for the first time or closes the tab and comes back later 
-  //this function makes sure to call the refresh endpoint
   if(!isInitialized) {
     return <strong>Loading...</strong>
   }
