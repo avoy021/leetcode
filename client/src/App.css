@@ -1,0 +1,32 @@
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* background-color: rgb(30, 30, 30); */
+  background-color: rgb(10, 9, 9);
+}
+
+
+*::-webkit-scrollbar {
+    width: 15px;
+}
+  
+*::-webkit-scrollbar-track {
+    background: rgb(55, 55, 55);
+}
+  
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(88, 88, 91);
+}
+
+.btn {
+  padding: 5px 12px;
+  border-radius: 20px;
+  background-color: rgb(112, 235, 112);
+}

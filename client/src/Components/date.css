@@ -1,0 +1,32 @@
+.highlight {
+    color: rgb(156 163 175);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.current {
+    color: white;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: rgb(61, 201, 61);
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+    text-decoration: none;
+}
+
+.react-calendar__navigation {
+    display: flex;
+}
+
+.react-calendar__navigation__label {
+    font-weight: bold;
+}
+
+.react-calendar__navigation__arrow {
+    flex-grow: 0.333;
+}
+
+.react-calendar__month-view__days__day--neighboringMonth {
+    opacity: 0.5;
+  }
